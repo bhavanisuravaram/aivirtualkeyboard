@@ -1,16 +1,19 @@
+Here's a **GitHub Repository Description** for your **AI Virtual Keyboard** using **OpenCV** and **MediaPipe**:  
 
-# 🖥️ AI Virtual Mouse (Hand Gesture-Based)  
+---
 
-An AI-powered virtual mouse using **OpenCV**, **MediaPipe**, and **AutoPy** to enable touchless interaction with a computer. This system tracks hand gestures and moves the cursor accordingly, allowing users to click, move, and interact without a physical mouse.  
+# 🖥️ AI Virtual Keyboard (Hand Gesture-Based)  
+
+An AI-powered virtual keyboard using **OpenCV** and **MediaPipe** for real-time **hand tracking and gesture recognition**. This project enables **touchless typing** by detecting finger movements and mapping them to a virtual keyboard displayed on the screen.  
 
 ---
 
 ## 🚀 Features  
-✅ **Hand Tracking & Gesture Recognition** – Uses **MediaPipe Hand Tracking** to detect finger positions  
-✅ **Cursor Control with Finger Movements** – Moves the mouse based on index finger motion  
-✅ **Click Gesture Detection** – Clicks when all fingers are up  
-✅ **Smooth Cursor Movements** – Interpolated cursor movement for a natural feel  
-✅ **Real-Time Processing** – Works with live webcam feed  
+✅ **Hand Tracking with MediaPipe** – Detects and tracks hand movements  
+✅ **Gesture-Based Typing** – Type letters by pointing your index finger at virtual keys  
+✅ **Space & Delete Gestures** – Special keys for spacing and deleting characters  
+✅ **Real-Time Visual Feedback** – Highlights the pressed keys for better interaction  
+✅ **Custom Keyboard Layout** – Modify key placement and add more functionality  
 
 ---
 
@@ -18,43 +21,45 @@ An AI-powered virtual mouse using **OpenCV**, **MediaPipe**, and **AutoPy** to e
 🔹 **Python** – Core programming language  
 🔹 **OpenCV** – Real-time video processing for hand tracking  
 🔹 **MediaPipe** – AI-based hand tracking and gesture recognition  
-🔹 **AutoPy** – Mouse control automation  
 🔹 **NumPy** – Gesture calculations  
+🔹 **CV2 GUI** – Displays the virtual keyboard  
 
 ---
 
 ## 📌 Installation & Setup  
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/ai-virtual-mouse.git
-cd ai-virtual-mouse
+git clone https://github.com/your-username/ai-virtual-keyboard.git
+cd ai-virtual-keyboard
 ```  
 
 ### 2️⃣ Install Dependencies  
 ```bash
-pip install opencv-python mediapipe numpy autopy
+pip install opencv-python mediapipe numpy
 ```  
 
-### 3️⃣ Run the AI Virtual Mouse  
+### 3️⃣ Run the AI Virtual Keyboard  
 ```bash
-python AiVirtualMouseProject.py
+python aivirualkeyboard.py
 ```  
 
 ---
 
 ## 🎯 Usage  
-1️⃣ Run the script, and the camera will start tracking your hand.  
-2️⃣ Move your **index finger** to control the cursor.  
-3️⃣ Perform **click gestures** (all fingers up) to simulate a mouse click.  
-4️⃣ Press **'q'** to exit.  
+1️⃣ **Run the script**, and the camera will start tracking your hand.  
+2️⃣ Move your **index finger** over the virtual keyboard to highlight keys.  
+3️⃣ Tap your finger (gesture-based) to "press" a key.  
+4️⃣ Use the **"Space"** button to insert spaces.  
+5️⃣ Use the **"Delete"** button to erase characters.  
+6️⃣ Press **'q'** to exit.  
 
 ---
 
 ## 🌐 Deployment  
 This project can be used for:  
-- **Hands-Free Computer Control** – For accessibility & smart interfaces  
+- **Hands-Free Typing** – For accessibility & smart interfaces  
 - **Augmented Reality (AR) Applications** – Gesture-based interaction  
-- **Gaming & Creative Tech** – Enhance UX for digital devices  
+- **Gaming & Interactive Tech** – Innovative text input methods  
 
 ---
 
@@ -66,3 +71,8 @@ Contributions are welcome! If you have ideas to improve hand gestures, feel free
 
 📩 For queries, reach out via GitHub Issues!  
 bhavanisuravaram@gmail.com
+
+### 🔗 License  
+This project is **open-source** under the **MIT License**.  
+
+---
