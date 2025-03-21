@@ -1,14 +1,4 @@
 
-
-Your script appears to be an **AI Virtual Mouse** rather than a **Virtual Keyboard**. It uses **OpenCV**, **MediaPipe**, and **AutoPy** to track hand movements and control the mouse cursor. If you meant a **gesture-based virtual keyboard**, some modifications will be needed.
-
----
-
-### **GitHub Repository Description for AI Virtual Mouse**
-Here’s a description you can use for your **AI Virtual Mouse** project:
-
----
-
 # 🖥️ AI Virtual Mouse (Hand Gesture-Based)  
 
 An AI-powered virtual mouse using **OpenCV**, **MediaPipe**, and **AutoPy** to enable touchless interaction with a computer. This system tracks hand gestures and moves the cursor accordingly, allowing users to click, move, and interact without a physical mouse.  
