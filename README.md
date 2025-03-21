@@ -1,6 +1,3 @@
-Here's a **GitHub Repository Description** for your **AI Virtual Keyboard** using **OpenCV** and **MediaPipe**:  
-
----
 
 # 🖥️ AI Virtual Keyboard (Hand Gesture-Based)  
 
